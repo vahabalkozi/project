@@ -1,4 +1,8 @@
-
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
 b, sup, sub, u, del{
     color: var(--main-color);
 }
@@ -398,6 +402,9 @@ b, sup, sub, u, del{
    outline: none;
    background-color: #f6f3f3;
 }
+.form-element-box input,.form-element-box textarea ,.form-element-box select {
+    cursor: pointer;
+}
 .form-element-box textarea{
     resize: none;
 }
@@ -490,6 +497,7 @@ b, sup, sub, u, del{
     padding: 10px 30px;
     border: none;
     outline: none;
+    cursor: pointer;
 } 
 /* Checkboxes */
 .check-box{
