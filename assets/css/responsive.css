@@ -218,10 +218,15 @@
         font-size: 40px;
     }
     /* brand */
+    .brand{
+        margin-left: 0;
+    }
     .brand-inner{
         display: grid;
         grid-template-columns:1fr;
-        align-items: center;
+    }
+    .brand-inner a{
+        justify-self: center;
     }
     /* markwines */
     .mark-wiens{
