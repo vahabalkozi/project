@@ -24,9 +24,22 @@
     .menu li a{
         color: white;
     }
-    .inner-menu{
-        opacity: 100%;
+    .inner-page{
+        position: relative;
+    }
+    .inner-page i{
+        color: white;
+        position: absolute;
+        top: 0;
+        left: 90%;
+    }
+    .inner-menu {
+        opacity:0%;
         background-color: transparent;
+        color: white;
+    }
+    .inner-page i:hover .inner-menu{
+        opacity: 100%;
     }
     /* hero */
     .hero{
@@ -204,9 +217,22 @@
     .menu li a{
         color: white;
     }
-    .inner-menu{
-        opacity: 100%;
+    .inner-page{
+        position: relative;
+    }
+    .inner-page i{
+        color: white;
+        position: absolute;
+        top: 0;
+        left: 90%;
+    }
+    .inner-menu {
+        opacity:0%;
         background-color: transparent;
+        color: white;
+    }
+    .inner-page i:hover .inner-menu{
+        opacity: 100%;
     }
      /* hero */
      .hero{

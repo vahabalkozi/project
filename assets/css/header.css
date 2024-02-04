@@ -60,6 +60,12 @@
 .page-link:hover ~.inner-menu{
     opacity: 100%;
 }
+.inner-page i{
+    cursor: pointer;
+}
+.inner-page i:hover ~ .inner-menu{
+    opacity: 100%;
+}
 .inner-menu li a:hover{
     color: var(--main-color);
 }

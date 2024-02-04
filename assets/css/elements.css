@@ -365,8 +365,7 @@ b, sup, sub, u, del{
     background:url("../images/g8.jpg.webp") no-repeat center center;
     background-size: cover;
 }
-.image-box-3 div{
-    background-color: red;  
+.image-box-3 div{ 
     height: 200px;
 }
 /* image gallery bottom */
